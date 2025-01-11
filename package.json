@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "@types/express": "^5.0.0",
     "@types/mathjs": "^9.4.2",
     "@types/node": "^22.10.5",
+    "@types/nodemon": "^1.19.6",
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "express": "^4.21.2",
@@ -23,6 +25,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
     "simple-statistics": "^7.8.7"
   }
 }
